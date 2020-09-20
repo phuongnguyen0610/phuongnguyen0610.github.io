@@ -25,7 +25,8 @@
   transform: translate(-50%, -50%);
   .site-title {
     font-size: 50px;
-    display: block;
+    //display: block;
+    display: inline;
     line-height: 1;
     color: #FFF;
     @media only screen and (min-width:$cut){
