@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS315-Lab2</title>
+    <script src="/CS315/js/lab2.js"></script>
+    <link rel="stylesheet" href="/CS315/css/style.css">
+</head>
+<body>
+    <h1> Welcome to Lab 2</h1>
+    <ol>
+        <li><b>Question 1: Done</b><br/><br/></li>
+        <li><b>Question 2:</b><br/><br/>
+        <div id="question2">
+            Input: <br/><br/>
+            <input type="text" id="txtInput"><br/><br/>
+            Output:<br/><br/>
+            <textarea id="txtOutput" cols="20" rows="8"></textarea><br/><br/>
+            <button onclick="add()">Click to add</button>
+        </div>
+        </li><br/><br/>
+        <li><b>Question 3:</b>
+        <div id="question3">
+            First Value<br/><br/>
+            <input type="number" id="txtFirstValue"><br/><br/>
+            Second Value <br/><br/>
+            <input type="number" id="txtSecondValue"><br/><br/>
+            Operations:<br/><br/>
+            <button onclick="sum()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">*</button><br/><br/>
+            Result
+            <div id="result"></div>
+        </div>
+        
+        </li><br/><br/>
+        <li><b>Question 4:</b>
+        <h3>Inventory</h3>
+        Item Name: <br/><br/>
+        <input type="text" id="txtName"><br/><br/>
+        Item Category:<br/><br/>
+        <input type="text" id="txtCategory"><br/><br/>
+        Item Quantity:<br/><br/>
+        <input type="number" id="txtQuantity"><br/><br/>
+        <button onclick="addItem()">Add</button><br/><br/>
+        <table id="itemsTable">
+            <tr>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Quantity</th>
+            </tr>
+        </table>
+        </li>
+    </ol>
+</body>
+</html>
